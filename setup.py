@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='AlexFireBot',
-    version='0.0',
+    version='0.1',
     description='Бот для AlexFireChat',
     url='https://github.com/AlexFire-Dev/AlexFireBot',
     packages=['AlexFireBot'],
