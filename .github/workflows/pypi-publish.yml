@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-        python3 -m pip install setuptools wheel
-        python3 setup.py sdist bdist_wheel
-        python3 -m pip install twine
-        ls
+      - run: python3 -m pip install setuptools wheel
+      - run: python3 setup.py sdist bdist_wheel
+      - run: python3 -m pip install twine
+      - run: ls
